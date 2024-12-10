@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Trattatello, serif;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/62156442078c0062c2468033/b3775f26-c38e-42b0-a817-c9ce8ff596c9/Hells-Kitchen-Pattern-05_BG-01.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#game-container {
+    background: #880c0c;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+h1 {
+
+    margin-bottom: 20px;
+}
+
+#score, #timer {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#order-display {
+    margin-bottom: 20px;
+}
+
+#ingredient-tray {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ingredient {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ingredient:hover {
+    background-color: #ddd;
+}
+
+#ingredient-tray {
+    margin-bottom: 20px;
+}
+
+.ingredient {
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#preparation-area {
+
+    min-height: 150px;
+    border: black solid 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ingredient {
+    cursor: move;
+}
+
+#order-display {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0e0a0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(211, 194, 194, 0.18);
+}

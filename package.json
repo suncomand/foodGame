@@ -1,5 +1,5 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "foodGame",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
