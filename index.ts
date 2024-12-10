@@ -126,7 +126,7 @@ function startTimer() {
 
         if (timeLeft <= 0) {
             clearInterval(interval!)
-            alert('Game Over! Go to hell!, POINTS:' + score)
+            alert('Game Over! Go to hell! POINTS:' + score)
         }
     }, 1500)
 }
